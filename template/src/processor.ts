@@ -8,7 +8,7 @@ export const Contract = "0x910Cbd523D972eb0a6f4cAe4618aD62622b39DbF".toLowerCase
 export const processor = new EvmBatchProcessor()
 	.setDataSource({
 		archive: lookupArchive("eth-mainnet"),
-		chain: "https://my.eth-mainnet.rpc",
+		chain: "https://rpc.ankr.com/eth",
 	})
 	.setFinalityConfirmation(10)
 	.setBlockRange({
